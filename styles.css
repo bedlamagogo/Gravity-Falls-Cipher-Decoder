@@ -1,0 +1,233 @@
+/* **************************************************
+        Table Of Contents
+1. Defaults
+2. Header
+3. Nav
+    3.1 - Nav responsive
+4. Body
+5. Section 1
+    5.1 Section 1 responsive
+6. Section 2
+    6.1 Section 2 responsive
+7. Section 3
+    7.1 Section 3 responsive
+8. Section 4
+    8.1 Section 4 responsive
+9. Footer
+************************************************** */
+
+@font-face {
+    font-family: 'gravitation_fallsuploadedfile';
+    src: url('webfontkit-20200428-151206/gravitation_falls-webfont.woff2') format('woff2'),
+         url('webfontkit-20200428-151206/gravitation_falls-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gravitation_fallsuploadedfile';
+    src: url('webfontkit-20200428-151206/gravitation_falls-webfont.woff2') format('woff2'),
+         url('webfontkit-20200428-151206/gravitation_falls-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/************
+1. Defaults
+*************/
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body, header, nav, main {
+    border: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'gravitation_fallsuploadedfile';
+    text-shadow: -3px 3px #000;
+    font-size: 3em;
+}
+
+
+/************
+2. Header
+*************/
+
+
+
+
+/************
+3. Nav
+*************/
+
+
+.mobileNavCheck {
+    display: none;
+}
+
+.navUL {
+    list-style: none;
+}
+
+
+.navLiText {
+    text-decoration: none;
+}
+
+/*********************
+3.1 - Nav responsive
+**********************/
+
+@media only screen and (min-width: 600px)  {
+    
+    
+   
+}
+
+
+/************
+4. Body
+*************/
+
+body {
+    background-image: url(img/gravity-falls-mystery-shack-post.jpg) ;
+    height: 100%;
+    width: 100%;
+    background-color: #f9ca78;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    color: #ecf2fb;
+    text-align: center;
+    background-size: cover;
+    
+}
+
+
+
+
+/************
+5. Section 1
+*************/
+
+.section1 p {
+    font-size: 2rem;
+}
+
+/*************************
+Form Holder
+**************************/
+
+.formHolder {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.codeinput {
+    text-align: center;
+    height: 10vh;
+    width:40vw;
+     margin-bottom: 1rem;
+
+}
+.codeKey {
+    text-align: center;
+    height: 10vh;
+    width:40vw;
+      margin-bottom: 1rem;
+}
+
+input[type=text], [type=key]{
+    font-size: 1.2rem;
+} 
+
+input[type=submit] {
+    border: 0;
+    margin: 0;
+    width: 80vw;
+    font-size: 1.2rem;
+       background: #5bc390;
+
+}
+
+input[type=submit]:hover {  
+    background: #9880a2;
+}
+
+/************
+6. Section 2
+*************/
+
+.section2{
+    height: 35vh;
+}
+
+.resultsTitle{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.codeResult{
+    font-size: 1.5rem;
+     text-transform: uppercase;
+}
+
+/*************************
+6.1 Section 2 responsive
+**************************/
+
+
+
+
+
+
+/************
+7. Section 3
+*************/
+
+
+/*************************
+7.1 Section 3 responsive
+**************************/
+
+
+
+
+
+
+/************
+8. Section 4
+*************/
+
+
+/*************************
+8.1 Section 4 responsive
+**************************/
+
+
+
+/************
+9. Footer
+*************/
+
+
+.footerUL {
+    list-style: none;
+    margin-top: 30px;
+    
+}
+
+
+.footerLiText {
+    text-decoration: none;
+}
